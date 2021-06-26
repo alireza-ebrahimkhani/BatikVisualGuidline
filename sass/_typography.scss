@@ -1,0 +1,371 @@
+@import 'color';
+@import 'grid';
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-ThinItalic.eot');
+    src: local('Lab Grotesque Thin Italic'), local('../asset/platform/font/LabGrotesque-ThinItalic'),
+        url('../asset/platform/font/LabGrotesque-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-ThinItalic.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-ThinItalic.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-MediumItalic.eot');
+    src: local('Lab Grotesque Medium Italic'), local('../asset/platform/font/LabGrotesque-MediumItalic'),
+        url('../asset/platform/font/LabGrotesque-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-MediumItalic.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-MediumItalic.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Regular.eot');
+    src: local('Lab Grotesque Regular'), local('../asset/platform/font/LabGrotesque-Regular'),
+        url('../asset/platform/font/LabGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Regular.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Regular.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-LightItalic.eot');
+    src: local('Lab Grotesque Light Italic'), local('../asset/platform/font/LabGrotesque-LightItalic'),
+        url('../asset/platform/font/LabGrotesque-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-LightItalic.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-LightItalic.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Medium.eot');
+    src: local('Lab Grotesque Medium'), local('../asset/platform/font/LabGrotesque-Medium'),
+        url('../asset/platform/font/LabGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Medium.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Medium.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Bold.eot');
+    src: local('Lab Grotesque Bold'), local('../asset/platform/font/LabGrotesque-Bold'),
+        url('../asset/platform/font/LabGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Bold.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Bold.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Thin.eot');
+    src: local('Lab Grotesque Thin'), local('../asset/platform/font/LabGrotesque-Thin'),
+        url('../asset/platform/font/LabGrotesque-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Thin.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Thin.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Italic.eot');
+    src: local('Lab Grotesque Italic'), local('../asset/platform/font/LabGrotesque-Italic'),
+        url('../asset/platform/font/LabGrotesque-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Italic.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Italic.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-BlackItalic.eot');
+    src: local('Lab Grotesque Black Italic'), local('../asset/platform/font/LabGrotesque-BlackItalic'),
+        url('../asset/platform/font/LabGrotesque-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-BlackItalic.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-BlackItalic.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque Mono';
+    src: url('../asset/platform/font/LabGrotesqueMono.eot');
+    src: local('Lab Grotesque Mono'), local('../asset/platform/font/LabGrotesqueMono'),
+        url('../asset/platform/font/LabGrotesqueMono.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesqueMono.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesqueMono.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesqueMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-BoldItalic.eot');
+    src: local('Lab Grotesque Bold Italic'), local('../asset/platform/font/LabGrotesque-BoldItalic'),
+        url('../asset/platform/font/LabGrotesque-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-BoldItalic.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-BoldItalic.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Light.eot');
+    src: local('Lab Grotesque Light'), local('../asset/platform/font/LabGrotesque-Light'),
+        url('../asset/platform/font/LabGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Light.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Light.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque Mono';
+    src: url('../asset/platform/font/LabGrotesqueMono-Bold.eot');
+    src: local('Lab Grotesque Mono Bold'), local('../asset/platform/font/LabGrotesqueMono-Bold'),
+        url('../asset/platform/font/LabGrotesqueMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesqueMono-Bold.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesqueMono-Bold.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesqueMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: url('../asset/platform/font/LabGrotesque-Black.eot');
+    src: local('Lab Grotesque Black'), local('../asset/platform/font/LabGrotesque-Black'),
+        url('../asset/platform/font/LabGrotesque-Black.eot?#iefix') format('embedded-opentype'),
+        url('../asset/platform/font/LabGrotesque-Black.woff2') format('woff2'),
+        url('../asset/platform/font/LabGrotesque-Black.woff') format('woff'),
+        url('../asset/platform/font/LabGrotesque-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fa{
+    //display: none;
+    display: block;
+    opacity: 1;
+    
+    &--hide{
+        //display: block;
+        display: none;
+        opacity: 0;
+    }
+}
+$faFont: dana;
+$enFont: 'Lab Grotesque';
+%faType{
+    font-family: $faFont;
+    text-align: right;
+    direction: rtl;
+    
+}
+%enType{
+    font-family: $enFont;
+    &::before{
+        height: 10.5rem;
+        display: block;
+        content: " ";
+        margin-top: -10.5rem;
+        visibility: hidden;
+        @include mobile{
+            height: 14rem;
+            margin-top: -14rem;
+        }
+    }
+}
+@mixin type ($weight, $size){
+    
+    font-weight: $weight;
+    font-size: $size;
+    color:black;
+}
+h1 , .h1{
+    @include type(300, 12rem);
+    @extend %enType;
+    margin-bottom: 3rem;
+    @include mobile{
+        @include type(500, 6.5rem);
+    }
+}
+h2 , .h2{
+    @include type(300, 7.5rem);
+    @extend %enType;
+    margin-bottom:3rem ;
+    @include mobile{
+        @include type(300, 5rem);
+    }
+}
+h3 , .h3{
+    @include type(500, 5.25rem);
+    @extend %enType;
+    margin-bottom: 1rem;
+    @include mobile{
+        @include type(500, 4.5rem);
+    }
+}
+h4 , .h4{
+    @include type(500, 4rem);
+    @extend %enType;
+    @include mobile{
+        @include type(500, 3.5rem);
+    }
+    padding: 3rem 0 1rem;
+}
+h5 , .h5{
+    @include type(500, 2.75rem);
+    @extend %enType;
+}
+h6 , .h6{
+    @include type(500, 2rem);
+    @extend %enType;
+    padding-top: 1rem;
+}
+.subtitlei{
+    @include type(300, 2rem);
+    font-family: $enFont;
+}
+.subtitleii{
+    @include type(300, 1.75rem);
+    font-family: $enFont;
+}
+.bodyi{
+    @include type(300, 2rem);
+    font-family: $enFont;
+    line-height: 23px;
+}
+.bodyii{
+    @include type(300, 1.75rem);
+    font-family: $enFont;
+}
+.button{
+    @include type(300, 2rem);
+    font-family: $enFont;
+    text-transform: uppercase;
+}
+.caption{
+    @include type(300, 1.5rem);
+    margin-top:1rem;
+    font-family: $enFont;;
+}
+.overline{
+    @include type(300, 1.25rem);
+    font-family: $enFont;
+    letter-spacing: 1.5px;
+}
+a{
+    @include type(300, 2rem);
+    font-family: $enFont;
+    transition: $motion;
+    &:hover{
+        color: $brand-nm-m;
+        transition: $motion;
+    }
+}
+.h1--fa{
+    @include type(300, 12rem);
+    @extend %faType;
+}
+.h2--fa{
+    @include type(300, 7.5rem);
+    @extend %faType;
+}
+.h3--fa{
+    @include type(500, 5.25rem);
+    @extend %faType;
+}
+.h4--fa{
+    @include type(300, 4rem);
+    @extend %faType;
+}
+.h5--fa{
+    @include type(500, 2.75rem);
+    @extend %faType;
+}
+.h6--fa{
+    @include type(500, 2rem);
+    @extend %faType;
+}
+.subtitlei--fa{
+    @include type(500, 2rem);
+    @extend %faType;
+}
+.subtitleii--fa{
+    @include type(300, 1.75rem);
+    @extend %faType;
+}
+.bodyi--fa{
+    @include type(300, 2rem);
+    @extend %faType;
+}
+.bodyii--fa{
+    @include type(300, 1.75rem);
+    @extend %faType;
+    line-height: 21px;
+}
+.button--fa{
+    @include type(500, 2rem);
+    @extend %faType;
+    line-height: 19px;
+}
+.caption--fa{
+    @include type(500, 1.5rem);
+    @extend %faType;
+    margin-top: .5rem;
+}
+.overline--fa{
+    @include type(300, 1.25rem);
+    @extend %faType;
+}
+.do{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:#26c260;
+    padding-top:2rem;
+    font-family: $enFont;
+    margin-bottom: -.75rem;
+}
+.dont{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #d73500;
+    padding-top:2rem;
+    font-family: $enFont;
+    margin-bottom: -.75rem;
+}
+.allowed{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fdc215;
+    padding-top:2rem;
+    margin-bottom: -.75rem;
+    font-family: $enFont;
+}
