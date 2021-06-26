@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: #cfcfcf;
+  background-color: black;
   font-size: 8px;
 }
 
@@ -43,11 +43,11 @@ body {
 }
 
 .br {
-  border: 1px solid #858585;
+  border: 1px solid #242424;
 }
 
 .br--tab {
-  border: 1px solid #858585;
+  border: 1px solid #242424;
   border-top: 0;
 }
 
@@ -72,6 +72,10 @@ img {
 
 .black, .black > svg {
   background-color: unset;
+}
+
+.white {
+  background-color: white;
 }
 
 .brLess > svg {
@@ -388,7 +392,7 @@ h1::before, .h1::before, h2::before, .h2::before, h3::before, .h3::before, h4::b
 h1, .h1 {
   font-weight: 300;
   font-size: 12rem;
-  color: black;
+  color: white;
   margin-bottom: 3rem;
 }
 
@@ -396,14 +400,14 @@ h1, .h1 {
   h1, .h1 {
     font-weight: 500;
     font-size: 6.5rem;
-    color: black;
+    color: white;
   }
 }
 
 h2, .h2 {
   font-weight: 300;
   font-size: 7.5rem;
-  color: black;
+  color: white;
   margin-bottom: 3rem;
 }
 
@@ -411,14 +415,14 @@ h2, .h2 {
   h2, .h2 {
     font-weight: 300;
     font-size: 5rem;
-    color: black;
+    color: white;
   }
 }
 
 h3, .h3 {
   font-weight: 500;
   font-size: 5.25rem;
-  color: black;
+  color: white;
   margin-bottom: 1rem;
 }
 
@@ -426,14 +430,14 @@ h3, .h3 {
   h3, .h3 {
     font-weight: 500;
     font-size: 4.5rem;
-    color: black;
+    color: white;
   }
 }
 
 h4, .h4 {
   font-weight: 500;
   font-size: 4rem;
-  color: black;
+  color: white;
   padding: 3rem 0 1rem;
 }
 
@@ -441,41 +445,41 @@ h4, .h4 {
   h4, .h4 {
     font-weight: 500;
     font-size: 3.5rem;
-    color: black;
+    color: white;
   }
 }
 
 h5, .h5 {
   font-weight: 500;
   font-size: 2.75rem;
-  color: black;
+  color: white;
 }
 
 h6, .h6 {
   font-weight: 500;
   font-size: 2rem;
-  color: black;
+  color: white;
   padding-top: 1rem;
 }
 
 .subtitlei {
   font-weight: 300;
   font-size: 2rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
 }
 
 .subtitleii {
   font-weight: 300;
   font-size: 1.75rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
 }
 
 .bodyi {
   font-weight: 300;
   font-size: 2rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
   line-height: 23px;
 }
@@ -483,14 +487,14 @@ h6, .h6 {
 .bodyii {
   font-weight: 300;
   font-size: 1.75rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
 }
 
 .button {
   font-weight: 300;
   font-size: 2rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
   text-transform: uppercase;
 }
@@ -498,7 +502,7 @@ h6, .h6 {
 .caption {
   font-weight: 300;
   font-size: 1.5rem;
-  color: black;
+  color: white;
   margin-top: 1rem;
   font-family: "Lab Grotesque";
 }
@@ -506,7 +510,7 @@ h6, .h6 {
 .overline {
   font-weight: 300;
   font-size: 1.25rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
   letter-spacing: 1.5px;
 }
@@ -514,7 +518,7 @@ h6, .h6 {
 a {
   font-weight: 300;
   font-size: 2rem;
-  color: black;
+  color: white;
   font-family: "Lab Grotesque";
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
@@ -529,82 +533,82 @@ a:hover {
 .h1--fa {
   font-weight: 300;
   font-size: 12rem;
-  color: black;
+  color: white;
 }
 
 .h2--fa {
   font-weight: 300;
   font-size: 7.5rem;
-  color: black;
+  color: white;
 }
 
 .h3--fa {
   font-weight: 500;
   font-size: 5.25rem;
-  color: black;
+  color: white;
 }
 
 .h4--fa {
   font-weight: 300;
   font-size: 4rem;
-  color: black;
+  color: white;
 }
 
 .h5--fa {
   font-weight: 500;
   font-size: 2.75rem;
-  color: black;
+  color: white;
 }
 
 .h6--fa {
   font-weight: 500;
   font-size: 2rem;
-  color: black;
+  color: white;
 }
 
 .subtitlei--fa {
   font-weight: 500;
   font-size: 2rem;
-  color: black;
+  color: white;
 }
 
 .subtitleii--fa {
   font-weight: 300;
   font-size: 1.75rem;
-  color: black;
+  color: white;
 }
 
 .bodyi--fa {
   font-weight: 300;
   font-size: 2rem;
-  color: black;
+  color: white;
 }
 
 .bodyii--fa {
   font-weight: 300;
   font-size: 1.75rem;
-  color: black;
+  color: white;
   line-height: 21px;
 }
 
 .button--fa {
   font-weight: 500;
   font-size: 2rem;
-  color: black;
+  color: white;
   line-height: 19px;
 }
 
 .caption--fa {
   font-weight: 500;
   font-size: 1.5rem;
-  color: black;
+  color: white;
   margin-top: .5rem;
 }
 
 .overline--fa {
   font-weight: 300;
   font-size: 1.25rem;
-  color: black;
+  color: white;
 }
 
 .do {
@@ -795,7 +799,7 @@ section {
 
 .tab__list {
   width: 100;
-  border-bottom: 1px solid #858585;
+  border-bottom: 1px solid #242424;
 }
 
 .tab__item {
@@ -807,7 +811,7 @@ section {
 }
 
 .tab__item--active {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #E21842;
 }
 
 .tab__contents {
@@ -848,7 +852,7 @@ section {
 }
 
 a.toc-link {
-  color: #5c5c5c;
+  color: #949494;
   height: 100%;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -858,7 +862,7 @@ a.toc-link {
 }
 
 a.toc-link:hover {
-  color: black;
+  color: white;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
@@ -882,7 +886,7 @@ a.toc-link:hover {
 }
 
 .is-active-link {
-  color: black !important;
+  color: #E21842 !important;
 }
 
 .is-active-link::before {
@@ -956,7 +960,7 @@ a.toc-link:hover {
   appearance: none;
   width: 16px;
   height: 16px;
-  border: 1px solid #000;
+  border: 1px solid #E21842;
   background: white;
   cursor: pointer;
   -webkit-transition: .3s all ease;
@@ -964,7 +968,7 @@ a.toc-link:hover {
 }
 
 .imgComparison__silder::-webkit-slider-thumb:hover {
-  background: #000;
+  background: #E21842;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
 }
@@ -1057,8 +1061,8 @@ a.toc-link:hover {
 header {
   width: 100%;
   height: 8rem;
-  border-bottom: 1px solid #858585;
-  background-color: #cfcfcf;
+  border-bottom: 1px solid #242424;
+  background-color: black;
   z-index: 100;
   position: fixed;
   top: 0;
@@ -1115,12 +1119,11 @@ header {
 }
 
 .header__logosvg {
-  width: 21px;
-  height: 20px;
-  fill: black;
-  margin: 2.5rem 0px;
+  width: 72px;
+  height: 31px;
+  margin: 2rem 0px;
   -ms-grid-column-align: right;
-      justify-self: right;
+  justify-self: right;
 }
 
 .header__decription {
@@ -1242,7 +1245,7 @@ header {
 }
 
 .header__item--active {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #E21842;
 }
 
 .header__item > a {
@@ -1259,7 +1262,7 @@ header {
 }
 
 .header__item > a:hover {
-  color: #000;
+  color: black;
 }
 
 .header__translate {
@@ -1320,7 +1323,7 @@ header {
 .header__hamline {
   width: 20px;
   height: 2px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: 11px;
   left: 2px;
@@ -1332,7 +1335,7 @@ header {
   content: '';
   width: 20px;
   height: 2px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: -8px;
   left: 0px;
@@ -1344,7 +1347,7 @@ header {
   content: '';
   width: 20px;
   height: 2px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   top: 8px;
   left: 0px;
@@ -1361,6 +1364,7 @@ header {
 .header__hamline--open:after {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
+  background-color: black;
   content: '';
   -webkit-transform: rotate(-45deg) translate(6px, -5px);
           transform: rotate(-45deg) translate(6px, -5px);
@@ -1369,6 +1373,7 @@ header {
 .header__hamline--open:before {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
+  background-color: black;
   content: '';
   -webkit-transform: rotate(45deg) translate(6px, 5px);
           transform: rotate(45deg) translate(6px, 5px);
@@ -1425,8 +1430,6 @@ header {
     padding: 7.5rem 0rem 0rem 3rem;
     width: 300px;
     background-color: white;
-    -webkit-box-shadow: 0px 0px 0px #bdbdbd;
-            box-shadow: 0px 0px 0px #bdbdbd;
     left: -300px;
     top: 0;
     height: 100vh;
@@ -1438,8 +1441,6 @@ header {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   left: 0px;
-  -webkit-box-shadow: 1px 1px 20px #bdbdbd;
-          box-shadow: 1px 1px 20px #bdbdbd;
 }
 
 .main__nav--up {
@@ -1469,7 +1470,7 @@ header {
 }
 
 .main__menuItem--active > a {
-  color: #000;
+  color: black;
 }
 
 .icons {
@@ -1510,17 +1511,23 @@ header {
 }
 
 .colorBox {
-  -webkit-clip-path: polygon(0 0, 100% 18.75%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 100% 18.75%, 100% 100%, 0% 100%);
   width: 100%;
   padding-bottom: 100%;
   position: relative;
+  border-radius: 50%;
 }
 
 .colorBox_info {
+  width: 100%;
   position: absolute;
-  padding: 2rem;
-  bottom: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.colorBox_info p {
+  text-align: center;
 }
 
 .colorBox_border {
@@ -1553,7 +1560,7 @@ header {
 }
 
 .compare__subTitle p:nth-child(1) {
-  color: #000;
+  color: black;
 }
 
 .compare__subTitle p:nth-child(2) {
@@ -1568,7 +1575,7 @@ header {
 
 .compare__left {
   height: 1rem;
-  background-color: #000;
+  background-color: black;
   position: absolute;
 }
 
@@ -1580,12 +1587,16 @@ header {
 
 .link {
   padding: 1.5rem 2rem;
-  background-color: black;
+  background-color: #E21842;
   color: white;
 }
 
 .link:hover {
   color: white;
-  background-color: #4d4d4d;
+  background-color: #ed5978;
+}
+
+.imgMotion {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

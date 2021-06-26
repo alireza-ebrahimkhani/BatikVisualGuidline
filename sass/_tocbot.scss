@@ -20,14 +20,14 @@
     padding-left: 0;
   }
   a.toc-link {
-    color: $brand-nm-d ;
+    color: $brand-nm-m ;
     height: 100%;
     font-size: 2rem;
     margin-bottom: 1rem;
     display: block;
     transition: $motion;
     &:hover{
-      color: $brand-black ;
+      color: white ;
       transition: $motion;
     }
   }
@@ -47,7 +47,7 @@
 
   }
   .is-active-link {
-    color: $brand-black !important;
+    color: $brand-primaryColor !important;
   }
 
   .is-active-link::before {

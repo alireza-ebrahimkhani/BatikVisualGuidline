@@ -206,7 +206,7 @@ $enFont: 'Lab Grotesque';
     
     font-weight: $weight;
     font-size: $size;
-    color:black;
+    color:white;
 }
 h1 , .h1{
     @include type(300, 12rem);

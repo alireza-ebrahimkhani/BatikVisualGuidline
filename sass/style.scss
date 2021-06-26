@@ -9,8 +9,8 @@
 header{
     width: 100%;
     height: 8rem;
-    border-bottom: 1px solid $brand-dm-d;
-    background-color: #cfcfcf;
+    border-bottom: 1px solid $brand-nm-s;
+    background-color: black;
     z-index:100;
     position: fixed;
     top: 0;
@@ -43,10 +43,10 @@ header{
         }
     }
     &__logosvg{
-        width: 21px;
-        height: 20px;
-        fill:$brand-black;
-        margin: 2.5rem 0px ;
+        width: 72px;
+        height: 31px;
+        margin: 2rem 0px;
+        -ms-grid-column-align: right;
         justify-self: right;
     }
     &__decription{
@@ -121,7 +121,7 @@ header{
                 text-align: center;
             }
             &:hover{
-            color: $brand-primaryColor;
+            color: black;
             
         }
         }
@@ -164,7 +164,7 @@ header{
     &__hamline{
         width: 20px;
         height: 2px;
-        background-color: $brand-black;
+        background-color: white;
         position: absolute;
         top:11px;
         left: 2px;
@@ -173,7 +173,7 @@ header{
             content: '';
             width: 20px;
             height: 2px;
-            background-color: $brand-black;
+            background-color: white;
             position: absolute;
             top: -8px;
             left: 0px;
@@ -183,7 +183,7 @@ header{
             content: '';
             width: 20px;
             height: 2px;
-            background-color: $brand-black;
+            background-color: white;
             position: absolute;
             top: 8px;
             left: 0px;
@@ -194,12 +194,14 @@ header{
             background-color: transparent;
             &:after{
                 transition: $motion;
+                background-color: black;
                 content: '';
                 transform: rotate(-45deg) translate(6px , -5px);
                 
             }
             &:before{
                 transition: $motion;
+                 background-color: black;
                 content: '';
                 transform: rotate(45deg) translate(6px , 5px);
                 
@@ -237,7 +239,6 @@ header{
             padding: 7.5rem 0rem 0rem 3rem;
             width: 300px;
             background-color: $brand-white;
-            box-shadow: 0px 0px 0px $brand-dm-m;
             left: -300px;
             top:0;
             height: 100vh;
@@ -247,7 +248,6 @@ header{
         &--open{
             transition: $motion;
             left: 0px;
-            box-shadow: 1px 1px 20px $brand-dm-m;
         }
         &--up{
             transition: $motion;
@@ -268,7 +268,7 @@ header{
             font-size: 2.5rem;
         }
         &--active > a{
-            color: $brand-primaryColor;
+            color: black;
         }
     }
 
@@ -299,14 +299,19 @@ header{
     }
 }
 .colorBox{
-    clip-path: polygon(0 0, 100% 18.75%, 100% 100%, 0% 100%);
     width: 100%;
     padding-bottom: 100%;
     position: relative;
+    border-radius: 50%;
     &_info{
+        width: 100%;
         position: absolute;
-        padding: 2rem;
-        bottom: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        & p {
+            text-align: center;;
+        }
     }
     &_border{
         clip-path: polygon(0 0, 100% 18.75%, 100% 100%, 0% 100%);
@@ -331,7 +336,7 @@ header{
         margin-bottom: .5rem;
     }
     &__subTitle p:nth-child(1){
-        color: $brand-primaryColor;
+        color: black;
     }
     &__subTitle p:nth-child(2){
         position: absolute;
@@ -343,7 +348,7 @@ header{
     }
     &__left{
         height: 1rem;
-        background-color: $brand-primaryColor;
+        background-color: black;
         position: absolute;
     }
     &__right{
@@ -354,10 +359,14 @@ header{
 }
 .link{
     padding: 1.5rem 2rem;
-    background-color: $brand-black;
+    background-color: $brand-primaryColor;
     color: white;
     &:hover{
         color: white;
-        background-color: $brand-dm-s;
+        background-color: lighten($brand-primaryColor , 15%);
     }
+}
+.imgMotion{
+    position: absolute;
+    
 }

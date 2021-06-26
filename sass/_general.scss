@@ -14,7 +14,7 @@ html {
     font-size:8px;
   }
 body{
-    background-color: #cfcfcf;
+    background-color: black;
     font-size: 8px;
 }
 
@@ -47,10 +47,10 @@ body{
 }
 
 .br{
- border: 1px solid $brand-dm-d;
+ border: 1px solid $brand-nm-s;
 }
 .br--tab{
-  border: 1px solid $brand-dm-d;
+  border: 1px solid $brand-nm-s;
   border-top:0;
  }
  .br--dont{
@@ -71,7 +71,9 @@ body{
  .black , .black > svg{
   background-color: unset;
  }
-
+.white{
+  background-color: white;
+}
  .brLess>svg{
   border: 0px solid $brand-dm-d;
 }
