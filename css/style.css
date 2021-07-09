@@ -811,7 +811,7 @@ section {
 }
 
 .tab__item--active {
-  border-bottom: 2px solid #E21842;
+  border-bottom: 2px solid #C11718;
 }
 
 .tab__contents {
@@ -886,7 +886,7 @@ a.toc-link:hover {
 }
 
 .is-active-link {
-  color: #E21842 !important;
+  color: #C11718 !important;
 }
 
 .is-active-link::before {
@@ -960,7 +960,7 @@ a.toc-link:hover {
   appearance: none;
   width: 16px;
   height: 16px;
-  border: 1px solid #E21842;
+  border: 1px solid #C11718;
   background: white;
   cursor: pointer;
   -webkit-transition: .3s all ease;
@@ -968,7 +968,7 @@ a.toc-link:hover {
 }
 
 .imgComparison__silder::-webkit-slider-thumb:hover {
-  background: #E21842;
+  background: #C11718;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
 }
@@ -1245,7 +1245,7 @@ header {
 }
 
 .header__item--active {
-  border-bottom: 2px solid #E21842;
+  border-bottom: 2px solid #C11718;
 }
 
 .header__item > a {
@@ -1587,13 +1587,13 @@ header {
 
 .link {
   padding: 1.5rem 2rem;
-  background-color: #E21842;
+  background-color: #C11718;
   color: white;
 }
 
 .link:hover {
   color: white;
-  background-color: #ed5978;
+  background-color: #e83d3e;
 }
 
 .imgMotion {
