@@ -243,113 +243,113 @@ section {
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-ThinItalic.eot");
-  src: local("Lab Grotesque Thin Italic"), local("../asset/platform/font/LabGrotesque-ThinItalic"), url("../asset/platform/font/LabGrotesque-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-ThinItalic.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-ThinItalic.woff") format("woff"), url("../asset/platform/font/LabGrotesque-ThinItalic.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-ThinItalic.eot");
+  src: local("NeueHaasGrotesk Thin Italic"), local("../asset/platform/font/NeueHaasDisplay-ThinItalic"), url("../asset/platform/font/NeueHaasDisplay-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-ThinItalic.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-ThinItalic.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-MediumItalic.eot");
-  src: local("Lab Grotesque Medium Italic"), local("../asset/platform/font/LabGrotesque-MediumItalic"), url("../asset/platform/font/LabGrotesque-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-MediumItalic.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-MediumItalic.woff") format("woff"), url("../asset/platform/font/LabGrotesque-MediumItalic.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-MediumItalic.eot");
+  src: local("NeueHaasGrotesk Medium Italic"), local("../asset/platform/font/NeueHaasDisplay-MediumItalic"), url("../asset/platform/font/NeueHaasDisplay-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-MediumItalic.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-MediumItalic.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Regular.eot");
-  src: local("Lab Grotesque Regular"), local("../asset/platform/font/LabGrotesque-Regular"), url("../asset/platform/font/LabGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Regular.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Regular.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Regular.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Regular.eot");
+  src: local("NeueHaasGrotesk Regular"), local("../asset/platform/font/NeueHaasDisplay-Regular"), url("../asset/platform/font/NeueHaasDisplay-Regular.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Regular.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Regular.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-LightItalic.eot");
-  src: local("Lab Grotesque Light Italic"), local("../asset/platform/font/LabGrotesque-LightItalic"), url("../asset/platform/font/LabGrotesque-LightItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-LightItalic.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-LightItalic.woff") format("woff"), url("../asset/platform/font/LabGrotesque-LightItalic.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-LightItalic.eot");
+  src: local("NeueHaasGrotesk Light Italic"), local("../asset/platform/font/NeueHaasDisplay-LightItalic"), url("../asset/platform/font/NeueHaasDisplay-LightItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-LightItalic.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-LightItalic.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Medium.eot");
-  src: local("Lab Grotesque Medium"), local("../asset/platform/font/LabGrotesque-Medium"), url("../asset/platform/font/LabGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Medium.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Medium.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Medium.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Medium.eot");
+  src: local("NeueHaasGrotesk Medium"), local("../asset/platform/font/NeueHaasDisplay-Medium"), url("../asset/platform/font/NeueHaasDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Medium.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Medium.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Bold.eot");
-  src: local("Lab Grotesque Bold"), local("../asset/platform/font/LabGrotesque-Bold"), url("../asset/platform/font/LabGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Bold.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Bold.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Bold.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Bold.eot");
+  src: local("NeueHaasGrotesk Bold"), local("../asset/platform/font/NeueHaasDisplay-Bold"), url("../asset/platform/font/NeueHaasDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Bold.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Bold.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Thin.eot");
-  src: local("Lab Grotesque Thin"), local("../asset/platform/font/LabGrotesque-Thin"), url("../asset/platform/font/LabGrotesque-Thin.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Thin.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Thin.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Thin.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Thin.eot");
+  src: local("NeueHaasGrotesk Thin"), local("../asset/platform/font/NeueHaasDisplay-Thin"), url("../asset/platform/font/NeueHaasDisplay-Thin.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Thin.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Thin.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Italic.eot");
-  src: local("Lab Grotesque Italic"), local("../asset/platform/font/LabGrotesque-Italic"), url("../asset/platform/font/LabGrotesque-Italic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Italic.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Italic.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Italic.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Italic.eot");
+  src: local("NeueHaasGrotesk Italic"), local("../asset/platform/font/NeueHaasDisplay-Italic"), url("../asset/platform/font/NeueHaasDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Italic.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Italic.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-BlackItalic.eot");
-  src: local("Lab Grotesque Black Italic"), local("../asset/platform/font/LabGrotesque-BlackItalic"), url("../asset/platform/font/LabGrotesque-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-BlackItalic.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-BlackItalic.woff") format("woff"), url("../asset/platform/font/LabGrotesque-BlackItalic.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-BlackItalic.eot");
+  src: local("NeueHaasGrotesk Black Italic"), local("../asset/platform/font/NeueHaasDisplay-BlackItalic"), url("../asset/platform/font/NeueHaasDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-BlackItalic.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-BlackItalic.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque Mono';
-  src: url("../asset/platform/font/LabGrotesqueMono.eot");
-  src: local("Lab Grotesque Mono"), local("../asset/platform/font/LabGrotesqueMono"), url("../asset/platform/font/LabGrotesqueMono.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesqueMono.woff2") format("woff2"), url("../asset/platform/font/LabGrotesqueMono.woff") format("woff"), url("../asset/platform/font/LabGrotesqueMono.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk Mono';
+  src: url("../asset/platform/font/NeueHaasDisplayMono.eot");
+  src: local("NeueHaasGrotesk Mono"), local("../asset/platform/font/NeueHaasDisplayMono"), url("../asset/platform/font/NeueHaasDisplayMono.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplayMono.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplayMono.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplayMono.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-BoldItalic.eot");
-  src: local("Lab Grotesque Bold Italic"), local("../asset/platform/font/LabGrotesque-BoldItalic"), url("../asset/platform/font/LabGrotesque-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-BoldItalic.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-BoldItalic.woff") format("woff"), url("../asset/platform/font/LabGrotesque-BoldItalic.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-BoldItalic.eot");
+  src: local("NeueHaasGrotesk Bold Italic"), local("../asset/platform/font/NeueHaasDisplay-BoldItalic"), url("../asset/platform/font/NeueHaasDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-BoldItalic.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-BoldItalic.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Light.eot");
-  src: local("Lab Grotesque Light"), local("../asset/platform/font/LabGrotesque-Light"), url("../asset/platform/font/LabGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Light.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Light.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Light.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Light.eot");
+  src: local("NeueHaasGrotesk Light"), local("../asset/platform/font/NeueHaasDisplay-Light"), url("../asset/platform/font/NeueHaasDisplay-Light.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Light.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Light.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque Mono';
-  src: url("../asset/platform/font/LabGrotesqueMono-Bold.eot");
-  src: local("Lab Grotesque Mono Bold"), local("../asset/platform/font/LabGrotesqueMono-Bold"), url("../asset/platform/font/LabGrotesqueMono-Bold.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesqueMono-Bold.woff2") format("woff2"), url("../asset/platform/font/LabGrotesqueMono-Bold.woff") format("woff"), url("../asset/platform/font/LabGrotesqueMono-Bold.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk Mono';
+  src: url("../asset/platform/font/NeueHaasDisplayMono-Bold.eot");
+  src: local("NeueHaasGrotesk Mono Bold"), local("../asset/platform/font/NeueHaasDisplayMono-Bold"), url("../asset/platform/font/NeueHaasDisplayMono-Bold.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplayMono-Bold.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplayMono-Bold.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplayMono-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lab Grotesque';
-  src: url("../asset/platform/font/LabGrotesque-Black.eot");
-  src: local("Lab Grotesque Black"), local("../asset/platform/font/LabGrotesque-Black"), url("../asset/platform/font/LabGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/LabGrotesque-Black.woff2") format("woff2"), url("../asset/platform/font/LabGrotesque-Black.woff") format("woff"), url("../asset/platform/font/LabGrotesque-Black.ttf") format("truetype");
+  font-family: 'NeueHaasGrotesk';
+  src: url("../asset/platform/font/NeueHaasDisplay-Black.eot");
+  src: local("NeueHaasGrotesk Black"), local("../asset/platform/font/NeueHaasDisplay-Black"), url("../asset/platform/font/NeueHaasDisplay-Black.eot?#iefix") format("embedded-opentype"), url("../asset/platform/font/NeueHaasDisplay-Black.woff2") format("woff2"), url("../asset/platform/font/NeueHaasDisplay-Black.woff") format("woff"), url("../asset/platform/font/NeueHaasDisplay-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -371,7 +371,7 @@ section {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
 }
 
 h1::before, .h1::before, h2::before, .h2::before, h3::before, .h3::before, h4::before, .h4::before, h5::before, .h5::before, h6::before, .h6::before {
@@ -466,21 +466,21 @@ h6, .h6 {
   font-weight: 300;
   font-size: 2rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
 }
 
 .subtitleii {
   font-weight: 300;
   font-size: 1.75rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
 }
 
 .bodyi {
   font-weight: 300;
   font-size: 2rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
   line-height: 23px;
 }
 
@@ -488,14 +488,14 @@ h6, .h6 {
   font-weight: 300;
   font-size: 1.75rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
 }
 
 .button {
   font-weight: 300;
   font-size: 2rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
   text-transform: uppercase;
 }
 
@@ -504,14 +504,14 @@ h6, .h6 {
   font-size: 1.5rem;
   color: white;
   margin-top: 1rem;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
 }
 
 .overline {
   font-weight: 300;
   font-size: 1.25rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
   letter-spacing: 1.5px;
 }
 
@@ -519,7 +519,7 @@ a {
   font-weight: 300;
   font-size: 2rem;
   color: white;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
@@ -616,7 +616,7 @@ a:hover {
   font-size: 1.5rem;
   color: #26c260;
   padding-top: 2rem;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
   margin-bottom: -.75rem;
 }
 
@@ -625,7 +625,7 @@ a:hover {
   font-size: 1.5rem;
   color: #d73500;
   padding-top: 2rem;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
   margin-bottom: -.75rem;
 }
 
@@ -635,7 +635,7 @@ a:hover {
   color: #fdc215;
   padding-top: 2rem;
   margin-bottom: -.75rem;
-  font-family: "Lab Grotesque";
+  font-family: "NeueHaasGrotesk";
 }
 
 .wr {
@@ -811,7 +811,7 @@ section {
 }
 
 .tab__item--active {
-  border-bottom: 2px solid #C11718;
+  border-bottom: 2px solid #BA0C2F;
 }
 
 .tab__contents {
@@ -886,7 +886,7 @@ a.toc-link:hover {
 }
 
 .is-active-link {
-  color: #C11718 !important;
+  color: #BA0C2F !important;
 }
 
 .is-active-link::before {
@@ -960,7 +960,7 @@ a.toc-link:hover {
   appearance: none;
   width: 16px;
   height: 16px;
-  border: 1px solid #C11718;
+  border: 1px solid #BA0C2F;
   background: white;
   cursor: pointer;
   -webkit-transition: .3s all ease;
@@ -968,7 +968,7 @@ a.toc-link:hover {
 }
 
 .imgComparison__silder::-webkit-slider-thumb:hover {
-  background: #C11718;
+  background: #BA0C2F;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
 }
@@ -1245,7 +1245,7 @@ header {
 }
 
 .header__item--active {
-  border-bottom: 2px solid #C11718;
+  border-bottom: 2px solid #BA0C2F;
 }
 
 .header__item > a {
@@ -1587,13 +1587,13 @@ header {
 
 .link {
   padding: 1.5rem 2rem;
-  background-color: #C11718;
+  background-color: #BA0C2F;
   color: white;
 }
 
 .link:hover {
   color: white;
-  background-color: #e83d3e;
+  background-color: #f1224b;
 }
 
 .imgMotion {
