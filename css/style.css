@@ -1599,4 +1599,8 @@ header {
 .imgMotion {
   position: absolute;
 }
+
+span {
+  font-family: "NeueHaasGrotesk";
+}
 /*# sourceMappingURL=style.css.map */
